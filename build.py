@@ -93,10 +93,20 @@ def home(b):
 <p><a class="btn" href="{b}step-1/">Start with Step 1 <span aria-hidden="true">→</span></a></p></div></section>"""
 
 
+INSTALL_CAPTIONS = [
+    "How do you add Revision History to Chrome?", "Type revisionhistory.com into Chrome.", "Click Get Extension.",
+    "Click Add to Chrome.", "Approve it: click Add extension.", "Click the puzzle piece.",
+    "Pin Revision History. The pin turns blue.", "Open any Google Doc.", "Click Sign in with Google in the new bar.",
+    "Sign in with Google.", "Choose your account and continue.", "This bar means you\u2019re ready.",
+    "You\u2019re set up. Next: Step 2, read the history.",
+]
+
+
 def step1(b):
     return f"""<section class="sec"><div class="in"><h2 class="title">Install the extension</h2>
-<p class="leadc">Add the free ‘Revision History’ extension to Chrome on your laptop so you can follow along in your own Google Doc. Video coming soon.</p></div></section>
-{trybox('On your laptop, type <b>revisionhistory.com</b> into Chrome, click <b>Add to Chrome</b>, and pin it to your toolbar.')}
+{video(b, 'install-the-extension.mp4', 'poster-install.jpg', 'Video: Install the extension', '56 seconds', INSTALL_CAPTIONS)}
+<p class="lead">Add the free \u2018Revision History\u2019 extension to Chrome on your laptop, pin it, and sign in, so you can follow along in your own Google Doc.</p></div></section>
+{trybox('On your laptop, type <b>revisionhistory.com</b> into Chrome and click <b>Add to Chrome</b>. Pin it to your toolbar, open any Google Doc, and click <b>Sign in with Google</b> in the bar at the top.')}
 {nextbtn(b, 'step-2/', 'Next: Step 2')}"""
 
 
