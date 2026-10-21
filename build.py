@@ -111,18 +111,22 @@ def step1(b):
 
 
 HISTORY_CAPTIONS = [
-    "What can a document\u2019s history tell you?", "Start with Google\u2019s version history.",
-    "Version history shows who wrote each part, and when.", "It shows the stages, not how the text got there.",
-    "The extension adds how: keystrokes, sessions, writing time.", "Sessions and writing time, not just saved versions.",
-    "Including what was pasted, and when.", "Two tools, one approach: look at the process. Next: Step 3, watch the replay.",
+    "What can a document\u2019s history tell you?", "Open Version history: click the clock icon.",
+    "This is Google Docs\u2019 built-in Version history.", "Version history shows who wrote each part, and when.",
+    "Click an earlier version to see one person\u2019s edit, in their color.",
+    "The next version: a whole paragraph at once. You see the stage, not how it got there.",
+    "The Revision History extension adds how: keystrokes, sessions, and pastes.", "Pastes from outside the doc.",
+    "Writing sessions and total writing time.", "Click Details to see more.",
+    "Editing sessions: when, and for how long.", "Large pastes: what was pasted, and when.",
+    "Two tools, one approach: look at the process. Next: Step 3, watch the replay.",
 ]
 
 
 def step2(b):
     return f"""<section class="sec"><div class="in"><h2 class="title">Read a document\u2019s history</h2>
-{video(b, 'read-the-history.mp4', 'poster-history.jpg', 'Video: Read a document\u2019s history', '49 seconds', HISTORY_CAPTIONS)}
+{video(b, 'read-the-history.mp4', 'poster-history.jpg', 'Video: Read a document\u2019s history', '1 minute 8 seconds', HISTORY_CAPTIONS)}
 <p class="lead">Start with Google Docs\u2019 built-in version history to see who wrote each part and when. Then open the extension\u2019s Details to add how it was written: keystrokes, sessions, writing time, and pastes. Use both for the fuller picture.</p></div></section>
-{trybox('Open a Google Doc you\u2019ve written over a few sittings. Go to <b>File \u203a Version history \u203a See version history</b>, then click <b>Details</b> in the Revision History bar at the top.')}
+{trybox('Open a Google Doc you\u2019ve written over a few sittings. Click the <b>clock icon</b> at the top right to open Version history, then click <b>Details</b> in the Revision History bar at the top.')}
 {nextbtn(b, 'step-3/', 'Next: Step 3')}"""
 
 
