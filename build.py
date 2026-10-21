@@ -104,7 +104,7 @@ INSTALL_CAPTIONS = [
 
 def step1(b):
     return f"""<section class="sec"><div class="in"><h2 class="title">Install the extension</h2>
-{video(b, 'install-the-extension.mp4', 'poster-install.jpg', 'Video: Install the extension', '1 minute 7 seconds', INSTALL_CAPTIONS)}
+{video(b, 'install-the-extension.mp4', 'poster-install.jpg', 'Video: Install the extension', '1 minute 6 seconds', INSTALL_CAPTIONS)}
 <p class="lead">Add the free \u2018Revision History\u2019 extension to Chrome on your laptop, pin it, and sign in, so you can follow along in your own Google Doc.</p></div></section>
 {trybox('On your laptop, type <b>revisionhistory.com</b> into Chrome and click <b>Add to Chrome</b>. Pin it to your toolbar, open any Google Doc, and click <b>Sign in with Google</b> in the bar at the top.')}
 {nextbtn(b, 'step-2/', 'Next: Step 2')}"""
