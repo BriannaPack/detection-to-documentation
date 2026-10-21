@@ -112,7 +112,7 @@ def step1(b):
 
 def step2(b):
     return f"""<section class="sec"><div class="in"><h2 class="title">Read a document’s history</h2>
-<p class="leadc">Read the summary bar in a Google Doc, open Details, and see how this differs from Google Docs’ built-in version history. Video coming soon.</p></div></section>
+<p class="leadc">Read the summary bar in a Google Doc, open Details, and see how it builds on Google Docs’ built-in version history. Use both for the fuller picture. Video coming soon.</p></div></section>
 {trybox('Open a Google Doc you’ve written over a few sittings. Read the summary bar at the top, then click <b>Details</b>.')}
 {nextbtn(b, 'step-3/', 'Next: Step 3')}"""
 
