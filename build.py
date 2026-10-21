@@ -11,6 +11,7 @@ TITLE = "Detection to documentation"
 SUBTITLE = "Using a ‘Revision History’ extension to support authentic student writing in the age of AI"
 META = ("OLC Accelerate 2026 Discovery Session · Wed, Nov 18, 1:00–1:45 PM ET · "
         "Brianna M. Pack and Sharon K. Titus, Azusa Pacific University")
+SITE_URL = "https://briannapack.github.io/detection-to-documentation/"
 EVALUATE_URL = "https://olc.secure-platform.com/accelerate2026/gallery/rounds/82074/schedule/items/31748"
 
 STEPS = [
@@ -86,7 +87,7 @@ def home(b):
     rows = "".join(f'<div class="srow"><img src="{b}assets/img/badge-{l}.png" alt="" width="64" height="64"><div><h3>{t}</h3><p>{d}</p></div></div>'
                    for l, t, d in SHOW_ROWS)
     return f"""<section class="sec"><div class="in"><h2 class="title">Make your students SHOW their work</h2>
-<p class="leadc">Detection guesses from the product. Documentation shows the process.</p>
+<p class="leadc"><span class="n">Detection guesses from the product.</span> Documentation shows the process.</p>
 <p>AI detectors can’t show how the work was done, and they flag some students far more than others. The free ‘Revision History’ extension for Chrome replays how a Google Doc was written, so you can design assignments where the writing process is the evidence.</p></div></section>
 <section class="band"><div class="in"><h2 class="sr">SHOW in four parts</h2>{rows}</div></section>
 <section class="sec"><div class="in center"><p>Steps 1 to 3 show you the tool on your own Google Doc. Step 4 puts SHOW into practice.</p>
@@ -169,7 +170,8 @@ def page(key, path, name, body):
 <title>{name} · {TITLE}</title>
 <meta name="description" content="{SUBTITLE}. OLC Accelerate 2026 Discovery Session.">
 <meta property="og:title" content="{TITLE}: {name}"><meta property="og:description" content="{SUBTITLE}.">
-<meta property="og:image" content="{b}assets/img/banner.jpg">
+<meta property="og:url" content="{SITE_URL}{path}"><meta property="og:image" content="{SITE_URL}assets/img/share.png">
+<meta property="og:image:alt" content="{TITLE}: {SUBTITLE}"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="{b}assets/img/badge-S.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
