@@ -73,7 +73,7 @@ REPLAY_CAPTIONS = [
 ]
 
 SHOW_CAPTIONS = [
-    "How do you make your students SHOW their work?", "Four rules make the process required.",
+    "How do you make your students SHOW their work?", "A group project set up with SHOW.",
     "“Add me as an editor when your group creates this Google Doc.” Instructor sees every draft.",
     "“Do all writing directly in the Google Doc.” No pasting means a visible process.",
     "“Looking Ahead: This brainstorm is the first draft of your project proposal.” Feedback comes before the final version.",
