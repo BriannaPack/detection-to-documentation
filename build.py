@@ -167,8 +167,8 @@ def page(key, path, name, body):
 {stepnav(key, b)}
 <main id="main">{body(b)}
 <section class="take"><div class="in center"><h2 class="h2">Take it with you</h2><div class="tbtns">
-<a class="tbtn" href="{b}downloads/Detection-to-Documentation-Handout.pdf">Download the handout <small>PDF</small></a>
-<a class="tbtn" href="{b}downloads/Detection-to-Documentation-Slides.pdf">View the slides <small>PDF</small></a>
+<a class="tbtn" href="{b}downloads/Detection-to-Documentation-Handout.pdf" target="_blank" rel="noopener">Download the handout <small>PDF</small></a>
+<a class="tbtn" href="{b}downloads/Detection-to-Documentation-Slides.pdf" target="_blank" rel="noopener">View the slides <small>PDF</small></a>
 <a class="tbtn" href="{EVALUATE_URL}" target="_blank" rel="noopener">Evaluate this session <small>OLC</small></a>
 </div></div></section></main>
 <footer class="foot"><p class="names">Brianna M. Pack, MPH, MBA (<a href="mailto:bpack@apu.edu">bpack@apu.edu</a>) · Sharon K. Titus, PhD, MSN, RN (<a href="mailto:stitus@apu.edu">stitus@apu.edu</a>) · Azusa Pacific University</p>
