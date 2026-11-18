@@ -187,6 +187,7 @@ def page(key, path, name, body):
 <a class="tbtn" href="{EVALUATE_URL}" target="_blank" rel="noopener">Evaluate this session <small>OLC</small></a>
 </div></div></section></main>
 <footer class="foot"><p class="names">Brianna M. Pack, MPH, MBA (<a href="mailto:bpack@apu.edu">bpack@apu.edu</a>) · Sharon K. Titus, PhD, MSN, RN (<a href="mailto:stitus@apu.edu">stitus@apu.edu</a>) · Azusa Pacific University</p>
+<p class="names">Connect with Brianna: <a href="https://briannapack.github.io/">briannapack.github.io</a></p>
 <p>Educational session at OLC Accelerate 2026. ‘Revision History’ is a third-party tool shown for teaching; its mention here isn’t an endorsement.</p></footer>
 <script src="{b}assets/site.js" defer></script>
 </body></html>
